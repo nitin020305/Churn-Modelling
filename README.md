@@ -1,96 +1,76 @@
-# Churn-Modelling
 <div align="center">
-<style>
-  .gradient-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
-  }
-  .metric-card {
-    background: linear-gradient(145deg, #f0f2ff, #e8ecff);
-    border: 1px solid #d1d5db;
-    border-radius: 12px;
-    padding: 16px;
-    margin: 8px;
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
-  }
-  .demo-button {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 12px 24px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
-    transition: all 0.3s ease;
-  }
-  .demo-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 32px rgba(102, 126, 234, 0.4);
-  }
-</style>
 
-<h1 class="gradient-header">🏦 BankChurn Predictor</h1>
-<p><strong>Production ML model • 84.2% accuracy • Live Flask app • $1.2M business impact</strong></p>
+<h1>🏦 <strong>BankChurn Predictor</strong></h1>
+<p><em>84.2% Accuracy | Live Flask App | $1.2M Business Impact</em></p>
 
-<div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <span class="badge badge-green">Accuracy: 84.2%</span>
-  <span class="badge badge-blue">ROC-AUC: 0.848</span>
-  <span class="badge badge-success">Deployed</span>
-</div>
+<table style="border: none; margin: 20px auto; background: #f0f4ff;">
+  <tr>
+    <td style="padding: 8px 16px; background: #667eea; color: white; border-radius: 20px; font-weight: bold;">Accuracy: 84.2%</td>
+    <td style="padding: 8px 16px; background: #3b82f6; color: white; border-radius: 20px; font-weight: bold;">ROC-AUC: 0.848</td>
+    <td style="padding: 8px 16px; background: #10b981; color: white; border-radius: 20px; font-weight: bold;">Live Demo</td>
+  </tr>
+</table>
 
-<h3>🚀 Live Demo</h3>
-<a href="https://your-app.onrender.com" class="demo-button" target="_blank">
-  🔗 Try Prediction Now
-</a>
+<h2>🚀 <a href="https://your-app.onrender.com" target="_blank">Live Demo</a></h2>
+<p><strong>Try customer churn prediction now!</strong></p>
 
-<h3>📊 Key Metrics</h3>
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
-  <div class="metric-card">
-    <h4>✅ 84.2% Accuracy</h4>
-    <p>Beats industry avg (78%)</p>
-  </div>
-  <div class="metric-card">
-    <h4>📈 0.848 ROC-AUC</h4>
-    <p>Excellent classifier</p>
-  </div>
-  <div class="metric-card">
-    <h4>💰 $1.2M Savings</h4>
-    <p>60% churners caught</p>
-  </div>
-</div>
+<h3>📊 Performance Metrics</h3>
 
-<h3>✨ Features</h3>
-<ul style="max-width: 600px; margin: 0 auto; text-align: left;">
-  <li>Live Flask web app with responsive UI</li>
-  <li>13 features: CreditScore, Age, Balance, Geography...</li>
-  <li>Risk presets: 52%/70%/85% churn probability</li>
-  <li>Production-ready (Render/Heroku deployed)</li>
+<table style="border-collapse: collapse; margin: 20px auto; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
+  <tr style="background: linear-gradient(90deg, #667eea, #764ba2); color: white;">
+    <th style="padding: 12px 20px; text-align: left;">Metric</th>
+    <th style="padding: 12px 20px; text-align: left;">Value</th>
+  </tr>
+  <tr style="background: #f8fafc;">
+    <td style="padding: 12px 20px; font-weight: bold;">Accuracy</td>
+    <td style="padding: 12px 20px;"><strong style="color: #10b981;">84.2%</strong></td>
+  </tr>
+  <tr style="background: white;">
+    <td style="padding: 12px 20px; font-weight: bold;">ROC-AUC</td>
+    <td style="padding: 12px 20px;"><strong style="color: #3b82f6;">0.848</strong></td>
+  </tr>
+  <tr style="background: #f8fafc;">
+    <td style="padding: 12px 20px; font-weight: bold;">Business Impact</td>
+    <td style="padding: 12px 20px;"><strong style="color: #f59e0b;">$1.2M Savings</strong></td>
+  </tr>
+</table>
+
+<h3>✨ Key Features</h3>
+<ul style="max-width: 500px; margin: 0 auto; text-align: left; line-height: 1.6;">
+  <li><strong>Live Flask web app</strong> - Responsive UI</li>
+  <li><strong>13 features</strong> - CreditScore, Age, Balance...</li>
+  <li><strong>Risk presets</strong> - 52%/70%/85% churn</li>
+  <li><strong>Production ready</strong> - Render/Heroku deployed</li>
+  <li><strong>60% churners caught</strong> = $1.2M savings</li>
 </ul>
 
 <h3>⚡ Quick Start</h3>
-<div style="background: #f8fafc; border-radius: 8px; padding: 16px; max-width: 500px; margin: 0 auto;">
-<pre style="margin: 0; font-size: 14px;">
-git clone [repo-url]
-cd bankchurn-predictor
-pip install -r requirements.txt
-flask run
-</pre>
+<div style="background: #f8f9fa; border-left: 4px solid #667eea; padding: 16px; margin: 20px auto; max-width: 500px; font-family: monospace; font-size: 14px;">
+<strong>1.</strong> <code>git clone [repo-url]</code><br>
+<strong>2.</strong> <code>pip install -r requirements.txt</code><br>
+<strong>3.</strong> <code>flask run</code><br>
+<strong>4.</strong> Open <code>http://localhost:5000</code>
 </div>
 
 <h3>🛠 Tech Stack</h3>
-<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
-  <span class="badge">Python</span>
-  <span class="badge">Scikit-learn</span>
-  <span class="badge">Flask</span>
-  <span class="badge">Bootstrap</span>
-  <span class="badge">Render</span>
-</div>
+<table style="margin: 20px auto;">
+  <tr>
+    <td style="padding: 8px 16px; background: #ff6b6b; color: white; border-radius: 20px; margin: 4px;">Python</td>
+    <td style="padding: 8px 16px; background: #4ecdc4; color: white; border-radius: 20px; margin: 4px;">Flask</td>
+    <td style="padding: 8px 16px; background: #45b7d1; color: white; border-radius: 20px; margin: 4px;">Scikit-learn</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px 16px; background: #f9ca24; color: black; border-radius: 20px; margin: 4px;">Bootstrap</td>
+    <td style="padding: 8px 16px; background: #10b981; color: white; border-radius: 20px; margin: 4px;">Render</td>
+    <td style="padding: 8px 16px; background: #6c5ce7; color: white; border-radius: 20px; margin: 4px;">Docker</td>
+  </tr>
+</table>
 
-<div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
-  <p><strong>⭐ Star if helpful!</strong> | <a href="https://linkedin.com/in/yourprofile">LinkedIn</a></p>
-</div>
+<hr style="border: none; height: 2px; background: linear-gradient(90deg, transparent, #667eea, transparent); margin: 40px 0;">
+
+<p style="font-size: 18px; margin-top: 20px;">
+  <strong>⭐ Star this repo!</strong> 
+  <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+</p>
 
 </div>
