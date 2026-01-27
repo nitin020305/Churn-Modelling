@@ -1,0 +1,12 @@
+Flask
+pickle
+numpy
+pandas
+matplotlib
+seaborn
+parse
+Standardscaler
+SMOTE
+LogisticRegression
+sklearn
+joblib
